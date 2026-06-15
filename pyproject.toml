@@ -1,0 +1,23 @@
+[project]
+name = "tata"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gym>=0.26.2",
+    "gymnasium>=1.2.3",
+    "ipykernel>=7.3.0",
+    "numpy>=2.4.6",
+    "ortools>=9.15.6755",
+    "pandas>=3.0.3",
+    "stable-baselines3>=2.8.0",
+    "tensorboard>=2.20.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "tensorboard>=2.20.0",
+    "torch-tb-profiler>=0.4.3",
+]
