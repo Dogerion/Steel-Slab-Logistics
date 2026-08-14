@@ -1,4 +1,4 @@
-# TATA: Steel Slab Logistics Optimization
+# Steel Slab Logistics Optimization
 
 This project models and solves a Steel Slab Logistics Scheduling and Routing problem. The factory processes hot steel slabs arriving continuously into a storage yard. To slow their temperature decay, slabs must be moved into limited-capacity thermal isolation rooms (Fixed or Mobile Covers) using a crane. The goal is to maximize the final delivered temperature of the slabs while minimizing operational crane costs and penalties for slabs dropping below a critical temperature threshold.
 
